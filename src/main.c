@@ -10,9 +10,9 @@ int main(void)
     scanf("%c", &decision);
 
     if ('s' == decision)
-        system("shutdown -r now");
-    else if ('r' == decision)
         system("shutdown -P now");
+    else if ('r' == decision)
+        system("shutdown -r now");
     else
         printf("Por favor, tome una decision...");
 
